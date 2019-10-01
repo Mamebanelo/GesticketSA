@@ -1,0 +1,50 @@
+body{
+    background: #ffffff;
+}
+
+
+/* Bordered form */
+form {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    margin-top: 25px
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-color: #06878A;
+}
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #EC7E07;
+    color: #EC7E07;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+    
+}
+
+.element {
+    margin-top: 25px;
+}
+
+button{
+    border-radius: 25px;
+    height: 25px;
+    width: 125px;
+    color : white;
+}
+::placeholder{
+    color: #EC7E07;
+text-align: center;
+}
