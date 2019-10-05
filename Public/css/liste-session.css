@@ -1,0 +1,28 @@
+table
+{
+    border-collapse: collapse;
+     /* Les bordures du tableau seront collées (plus joli) */
+    }    
+tr
+{
+    border: 2px solid black;
+    width: 70px;
+    height: 40px;
+
+}
+th, td 
+{
+    border: 2px solid black;
+   
+
+}
+select{
+    border: none;
+    color : white;
+}
+
+.element{
+    float: left;
+    margin-left: 120px;
+    position: fixed;
+}
