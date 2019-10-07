@@ -1,0 +1,81 @@
+#menuD, #menuD ul {
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#menuD {
+/* on centre le menu dans la page */
+    text-align: center;
+}
+
+#menuD li {
+    /* on place les liens du menu horizontalement */
+        display: inline-block;
+    }
+#menuD ul li {
+        /* on enlève ce comportement pour les liens du sous menu */
+            display: inherit;
+            
+        }
+#menuD a {
+            text-decoration: none;
+            display: block;
+            color:White;
+            text-align: center;
+        }
+ #menuD ul {
+            position: absolute;
+        /* on cache les sous menus complètement sur la gauche */
+            left: -999em;
+            text-align: left;
+            z-index: 1000;
+        }
+ #menuD li:hover ul {
+        /* Au survol des li du menu on replace les sous menus */
+            left: auto;
+        }
+        #menuD li:first-child{
+            background-color: #EC7E07;
+            background-image:-webkit-linear-gradient(top, #EC7E07 0%, #EC7E07 100%);
+            background-image:linear-gradient(to bottom, #EC7E07 0%, #EC7E07 100%);
+            }
+           
+            #menuD li:nth-child(2){
+                background-color: #06878A;
+                background-image: -webkit-linear-gradient(top, #06878A 0%, #06878A 100%);
+                background-image:linear-gradient(to bottom, #06878A 0%, #06878A 100%);
+                }
+
+                #menuD li:first-child li{
+                    background:#EC7E07;
+                    }
+                    #menuD li:nth-child(2) li{
+                    background:#06878A;
+                    }
+
+
+                    #menuD a{
+                        text-decoration:none;
+                        display:block;
+                        padding:8px 32px;
+                        color:#fff;
+                        font-family:arial;
+                        }
+                        #menuD ul a{
+                        padding:8px 0;
+                        }
+                        #menuD li:hover li a{
+                        color:#fff;
+                        text-transform:inherit;
+                        }
+                        #menuD li:hover a, #menu-demo2 li li:hover a{
+                        color:#000;
+                        }
+                        #menuD, #menu-demo2 ul{
+                            padding:0;
+                            margin:0;
+                            list-style:none;
+                            text-align:center;
+                            }
