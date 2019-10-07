@@ -10,8 +10,16 @@
 <body>
         <div align ="center"> 
                 <div class="imgcontainer">
-                    <p align= "center"> <img src="../Public/img/sticker SA.png" style="width: 100px"></p>
+                    <p align= "center"> 
+                        <img src="../Public/img/sticker SA.png" style="width: 100px">
+                    
+                        <img src="../public/img/icone.png" style="width: 100px; margin-left: 35px; position: absolute">
 
+                    </p>
+                <div class="icone-connexion">
+                    <!--<img src="../public/img/icone.png" style="width: 100px; margin-left: 260px; ">-->
+                    
+                </div>
                     <div class="element">
    
                             <button type="button" class="cancelbtn" style="float: left 20px; margin-right: 50px; background-color: #EC7E07;">
@@ -35,7 +43,13 @@
                               }
                         ?>
 
+<<<<<<< HEAD:Views/add-user.php
                 <form action="../Contrôleurs/insertUser.php" method="POST">
+=======
+
+
+                <form>
+>>>>>>> 256e4931c88e81e69b59c0a5f16a2fcc220c9695:Views/add-user.html
                     <div class="container" style="display: flex">
                         <label for="nom"></label>
                         <input type="text" placeholder="Nom" name="nom" style="width: 95px"/>

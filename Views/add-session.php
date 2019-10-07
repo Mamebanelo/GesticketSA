@@ -11,7 +11,11 @@
         <div align ="center"> 
             
                 <div class="imgcontainer">
-                    <p align= "center"> <img src="../Public/img/sticker SA.png" style="width: 100px"></p>
+                    <p align= "center"> 
+                        <img src="../Public/img/sticker SA.png" style="width: 100px">
+                        <img src="../public/img/icone.png" style="width: 100px; margin-left: 35px; position: absolute">
+                    </p>
+                
                     <div class="element">
    
                             <button type="button" class="cancelbtn" style="float: left 20px; margin-right: 50px; background-color: #EC7E07;">
