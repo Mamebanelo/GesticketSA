@@ -1,0 +1,249 @@
+body { 
+    padding:0;
+    margin:0;}
+  
+  body {
+    color: #00171F;
+    font-family: Arial, Helvetica, sans-serif, sans-serif, ;
+    background-color: #f6f6f6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    padding-top: 100px;
+    text-align: center;
+    margin-top: 0;
+    font-size: 42px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd;
+    cursor: default;
+  }
+  h2 {
+      padding-top: 80px;
+      text-align: center;
+      margin-top: 0;
+      font-size: 42px;
+      letter-spacing: 1px;
+      color: #0F878A;
+      cursor: default;
+    }
+  .ref { 
+    text-align: center;
+    padding-top: 0px;
+  }
+  input[type="submit"]{
+    width: 100px;
+    background-color: #EC7E07; 
+    border-color: #EC7E07;
+    padding: 5px;
+    margin-right: 5px;
+    color: #fff;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  input[type="reset"]{
+    width: 100px;
+    background-color: #0F878A;
+    border-color: #0F878A;
+    padding: 5px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 15px;
+    
+  }
+  label[for="pass"]{
+    margin-right: 45px;
+    color: #0F878A;
+    font-size: 30px;
+    font-size: 20px;
+  
+  }
+  input[type="text"]{
+    margin-left: 60px;
+    width: 130px;
+    font-size: 30px;
+    padding: 8px;
+    font-size: 20px;
+    
+  }
+  
+  .champ { 
+    margin: 20px;
+    padding-top: 20px;
+  }
+  
+  .buttom {
+    margin: 20px;
+  }
+  
+  /**
+    Container
+  */
+  .app-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+  }
+  
+  
+  /**
+    Navigation
+  */
+  .nav {
+    flex: 1;
+    max-width: 260px;
+    background-color: #0F878A;
+  
+  }
+  
+  
+  .salogo {
+    display: flex;
+    justify-content: center;
+    background-color: #0F878A;
+   
+  }
+  
+  li a img{
+      width: 9%;
+      height: 9%;
+      margin-bottom: -2%;
+      margin-right: 10px;
+  }
+  
+  .titre{
+      color: #fff;
+      text-align: center;
+  }
+  
+  .nav__list {
+    margin: 40px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav__list-item {
+    position: relative;
+    padding-bottom: 10px;
+  
+  }
+  
+  
+    .nav__item-link {
+    padding: 15px 15px;
+    color: #fff;
+    
+    display: block;
+    padding: 15px;
+    
+    }
+    
+  
+  /**
+    App View
+  */
+  .app-view {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+  }
+  
+  /**
+    Utility Bar
+  */
+  .utility-bar {
+    height: 50px;
+    font-size: 13px;
+    font-weight: 300;
+    
+  }
+  
+  .utility-bar__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    float: right;
+  
+  }
+  
+  
+  
+  .utility-bar__account {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    } 
+  
+  .utility-bar__account-avatar {
+    display: inline-block;
+    
+    margin-left: 50px;
+    margin-top: 32px; 
+    width: 55px;
+    height: 55px;
+  
+    background-image: url('../user-story2/public/img/icone.png');
+    background-size: 100%;
+  
+  }
+  
+  .utility-bar__account-name {
+    color: #0F878A;
+    font-size: 20px;
+    
+   
+  }  
+  .add{
+      width: 50px;
+      height: 50px;
+  }
+  
+  .thumb{
+    
+    margin-right: 10px;
+  }
+  
+  /**
+    Content
+  */
+  .content {
+    flex: 1;
+    padding: 30px;
+    background-color: #FFFBFC;
+  }
+  .session {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    
+}
+.session label  {
+    margin-right: 50px;
+    color: #0F878A;
+}
+
+  .referentiel {
+    margin-bottom: 20px;
+    
+}
+.referentiel label  {
+    margin-right: 25px;
+    color: #0F878A;
+    
+}
+select {
+    padding: 12px;
+    background-color: white;
+}
+.effectif {
+    color: #0F878A;
+}
+.effectif {
+   margin-right: 0px;
+}
+  

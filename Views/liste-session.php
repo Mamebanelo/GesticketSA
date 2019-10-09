@@ -41,7 +41,7 @@
        <th>DATE DE FIN</th>
        <th>EFFECTIF TOTAL</th>
    </tr>
-   <tbody>
+   
    <tbody>
    <?php 
     foreach ($sessions as $key => $session) {

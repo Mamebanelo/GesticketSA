@@ -1,0 +1,211 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+  padding:0;
+  margin:0;}
+
+body {
+  color: #00171F;
+  font-family: Arial, Helvetica, sans-serif, sans-serif, ;
+  background-color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 0;
+  font-size: 42px;
+  letter-spacing: 1px;
+  
+  cursor: default;
+  color: #0F878A;
+}
+.ref { 
+  text-align: center;
+  padding-top: 50px;
+}
+input[type="submit"]{
+  width: 100px;
+  background-color: #EC7E07; 
+  border-color: #EC7E07;
+  padding: 15px;
+  margin-right: 5px;
+  color: #fff;
+  margin-left: 100px;
+  font-size: 20px;
+}
+input[type="reset"]{
+  width: 100px;
+  background-color: #0F878A;
+  border-color: #0F878A;
+  padding: 15px;
+  margin-left: 110px;
+  color: #fff;
+  font-size: 20px;
+  
+}
+label[for="pass"]{
+  margin-right: 45px;
+  color: #0F878A;
+  font-size: 30px;
+  
+
+}
+input[type="text"]{
+  width: 300px;
+  font-size: 30px;
+  padding: 8px;
+  
+}
+
+.champ { 
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.buttom {
+  margin: 20px;
+}
+
+/**
+  Container
+*/
+.app-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+}
+
+
+/**
+  Navigation
+*/
+.nav {
+  flex: 1;
+  max-width: 260px;
+  background-color: #0F878A;
+
+}
+
+
+.salogo {
+  display: flex;
+  justify-content: center;
+  background-color: #0F878A;
+ 
+}
+
+li a img{
+    width: 9%;
+    height: 9%;
+    margin-bottom: -2%;
+    margin-right: 10px;
+}
+
+.titre{
+    color: #fff;
+    text-align: center;
+}
+
+.nav__list {
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__list-item {
+  position: relative;
+  padding-bottom: 10px;
+
+}
+
+
+  .nav__item-link {
+  padding: 15px 15px;
+  color: #fff;
+  
+  display: block;
+  padding: 15px;
+  
+  }
+  
+
+/**
+  App View
+*/
+.app-view {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+}
+
+/**
+  Utility Bar
+*/
+.utility-bar {
+  height: 50px;
+  font-size: 13px;
+  font-weight: 300;
+  
+}
+
+.utility-bar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 100%;
+  float: right;
+
+}
+
+
+
+.utility-bar__account {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  } 
+
+.utility-bar__account-avatar {
+  display: inline-block;
+  
+  margin-left: 50px;
+  margin-top: 32px; 
+  width: 55px;
+  height: 55px;
+
+  background-image: url('../user-story2/public/img/icone.png');
+  background-size: 100%;
+
+}
+
+.utility-bar__account-name {
+  color: #0F878A;
+  font-size: 20px;
+  
+ 
+}  
+.add{
+    width: 50px;
+    height: 50px;
+}
+
+.thumb{
+  
+  margin-right: 10px;
+}
+
+/**
+  Content
+*/
+.content {
+  flex: 1;
+  padding: 30px;
+  background-color: #FFFBFC;
+}
+

@@ -43,13 +43,9 @@
                               }
                         ?>
 
-<<<<<<< HEAD:Views/add-user.php
+
                 <form action="../Contrôleurs/insertUser.php" method="POST">
-=======
 
-
-                <form>
->>>>>>> 256e4931c88e81e69b59c0a5f16a2fcc220c9695:Views/add-user.html
                     <div class="container" style="display: flex">
                         <label for="nom"></label>
                         <input type="text" placeholder="Nom" name="nom" style="width: 95px"/>
