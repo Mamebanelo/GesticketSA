@@ -117,19 +117,15 @@
                          
                 </select>
               </div>
-
-
-
-            
              <br>
              <div class="effectif">
                  <label  for="effectif">Effectif</label>
-                <input style="width: 300px" type="text" placeholder=""  />
+                <input style="width: 300px" type="text" placeholder="" name="effectif" />
              </div>
 
             <br>
-             <input type="reset" value="Annuler" id="annuler">
-            <input class="buttom" type="submit" value="Valider">
+            <button type="reset" class="cancelbtn" style=" background-color: #EC7E07; margin-top: 15px;margin-bottom: 25px;">Annuler</button>
+                        <button type="submit" style="background-color: #06878A; margin-top: 15px;margin-bottom: 25px;"> Ajouter </button>
 
             </form>
          </div>

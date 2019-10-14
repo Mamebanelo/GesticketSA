@@ -60,10 +60,16 @@
           <?php
           
                     include_once('db_connect.php');
-                    $query = $pdo->query("SELECT * FROM Posseder");
+                    
+                    $query = $pdo->query("SELECT session.Nom AS session ,referentiel.Nom AS referentiel, Posseder.effectif FROM Posseder, session, referentiel WHERE session.ID=Posseder.ID and referentiel.numref=Posseder.numref");
                     $PossederS= $query->fetchAll(); 
-                        
+                   
         ?>
+
+<?php
+                if(isset($_GET['RS'])){
+                echo $_GET['RS'];}
+                ?>
 
 <table style="width:80% ; color:#EC7E07 ; text-align:center; border-color:#06878A " >
    <tr>
@@ -75,11 +81,12 @@
    <tbody>
    <?php 
     foreach ($PossederS as $key => $Posseder)
+
     {
    ?>   
     <tr>
-        <td><?php echo $Posseder['ID'];?></td>
-        <td><?php echo $Posseder['numref'];?></td>
+        <td><?php echo $Posseder['session'];?></td>
+        <td><?php echo $Posseder['referentiel'];?></td>
         <td><?php echo $Posseder['effectif'];?></td>
 
     </tr>

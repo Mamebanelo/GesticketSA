@@ -26,7 +26,7 @@
 
                     //Affichage du bon déroulement de la requête à l’utilisateur
                     if($reponse)
-                    header("Location: ../Views/liste-session.php");  
+                    header("Location: ../Views/liste-session.php"); 
                    /* else
                     header("Location: ../Views/add-user.php?erreur=Le login existe déja");  */
  }
